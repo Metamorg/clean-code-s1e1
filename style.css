@@ -13,7 +13,7 @@
 .header img {
   width: 100%;
 }
-.header .more-inf {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -29,7 +29,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.tasks__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -45,7 +45,7 @@ ul {
 .task-title {
   list-style: none;
 }
-.task,
+.tasks__task,
 .btn {
   outline: none;
 }
@@ -128,7 +128,7 @@ ul {
 }
 
 /* Completed */
-#completed-tasks .task {
+#completed-tasks .tasks__task {
   text-decoration: line-through;
   color: #888;
 }
