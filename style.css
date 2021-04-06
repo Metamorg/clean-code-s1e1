@@ -17,12 +17,12 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     .header {
         text-align: center;
       }
-      
+
 }
 .container-center {
   display: block;
@@ -38,7 +38,7 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .task-title {
@@ -133,13 +133,13 @@ ul {
 
 /* Edit Task */
 .task-input {
-  display:none
+  display: none
 }
 
 .edit-mode .task-input {
   display:inline-block;
-  width:224px
+  width: 224px
 }
 .edit-mode .task-label {
-    display:none;
+    display: none;
 }
