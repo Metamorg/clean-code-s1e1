@@ -41,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.list-item, .task-title {
+.list-item,
+.task-title {
   list-style: none;
 }
-.task, .btn {
+.task,
+.btn {
   outline: none;
 }
 .btn {
